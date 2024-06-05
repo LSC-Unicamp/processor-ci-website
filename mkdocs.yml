@@ -1,0 +1,65 @@
+site_name: Processor CI
+site_author: Julio Avelar, Victor Lago, Angelo Malagutti, Rodolfo Azevedo
+site_description: Processor CI Website
+site_url: https://lampiao.ic.unicamp.br
+repo_name: riscv-isa-ci-website
+repo_url: https://github.com/LSC-Unicamp/riscv-isa-ci-website
+copyright: CC BY-SA 4.0
+theme: 
+  name: material
+  highlightjs: true
+  language: pt-BR
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - tables
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LSC-Unicamp
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+  # - pdf-export:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # - table-reader
+  # - autolinks
+nav:
+  - Home : index.md
