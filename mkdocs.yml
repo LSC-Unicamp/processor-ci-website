@@ -8,6 +8,8 @@ copyright: CC BY-SA 4.0
 theme: 
   name: material
   highlightjs: true
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   language: pt-BR
   features:
     - content.code.copy
