@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 
 # Run the application
-mkdocks build
+mkdocs build
 
 # Deactivate the virtual environment
 
