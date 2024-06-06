@@ -13,8 +13,8 @@ mkdocks build
 
 deactivate
 
-copy the files to the web server directory
-cp -r site/ /var/www/html
+#copy the files to the web server directory
+sudo cp -r site/* /var/www/html
 
 # End of the script
 echo "Deployment completed successfully"
