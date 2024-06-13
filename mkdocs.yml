@@ -65,7 +65,7 @@ plugins:
   # - autolinks
 nav:
   - Home : index.md
-  - Contributing : contributing.md
   - Cores: cores.md
   - Tools: tools.md
+  - Contributing: contributing.md
   - About : about.md
