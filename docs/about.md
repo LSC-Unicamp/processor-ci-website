@@ -8,10 +8,10 @@
 
 - **Research advisor**: [Rodolfo Azevedo](https://www.ic.unicamp.br/~rodolfo/)
 
-- **Master's student**: [Gabriel P Gomes]()
+- **Master's student**: [Gabriel P Gomes](https://github.com/GabPGomes)
 
 - **Undergraduate students**:
-    - [Angelo Malagutti](https://github.com/llTurtle22ll)
+    - [Angelo Malaguti](https://github.com/llTurtle22ll)
     - [Julio Avelar](https://github.com/JN513)
     - [Victor Lago](https://github.com/Viktor-Lake)
 
