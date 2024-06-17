@@ -12,7 +12,9 @@
 
 - **Undergraduate students**:
     - [Angelo Malaguti](https://github.com/llTurtle22ll)
+    - [Enrico Fernandes](https://github.com/EnricoPf)
     - [Julio Avelar](https://github.com/JN513)
     - [Victor Lago](https://github.com/Viktor-Lake)
+    - [Gabriel Oliveira]()
 
 ## Licenses

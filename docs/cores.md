@@ -1,4 +1,6 @@
-# Currently supported processors:
+# Currently supported Build processes:
+
+**Note**: The infrastructure is still in a state of implementation, some processors may be in an error state due to problems in the configuration of the infrastructure.
 
 | Name | Links | Status | Full Log |
 | ---- | -------| ------ | ---------|
