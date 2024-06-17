@@ -10,7 +10,7 @@ theme:
   highlightjs: true
   logo: assets/logo.svg
   favicon: assets/logo.svg
-  language: pt-BR
+  language: en
   features:
     - content.code.copy
     - navigation.tabs
