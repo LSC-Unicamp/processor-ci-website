@@ -66,6 +66,7 @@ plugins:
 nav:
   - Home : index.md
   - Cores: cores.md
-  - Tools: tools.md
+  - Hardware infrastructure: hardware_infrastructure.md
+  - Software Tests: software_tests.md
   - Contributing: contributing.md
   - About : about.md

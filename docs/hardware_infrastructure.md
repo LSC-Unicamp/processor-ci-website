@@ -1,4 +1,4 @@
-# Tools
+# Hardware infrastructure
 
 ## Project modules
 
@@ -8,15 +8,7 @@ Processor CI Controller is a hardware module that acts as a wrapper around the p
 
 [Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci-controller)
 
-### Processor CI Tests
-
-[Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci-tests)
-
-### Processor CI Interface
-
-[Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci)
-
-## Currently supported FPGAs
+## Currently supported FPGAs Boards
 
 - Digilent Nexys 4 DDR
 - Tang nano 20k
