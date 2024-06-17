@@ -15,3 +15,4 @@ Processor CI Controller is a hardware module that acts as a wrapper around the p
 - Colorlight i9
 - Digilent Arty A7 100T
 - Xilinx VC709
+- Cyclone 10 GX (In progress)
