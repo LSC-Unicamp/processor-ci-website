@@ -37,7 +37,6 @@ The memory controller provides an access interface to the memory for both the co
 - Xilinx VC709
 - Cyclone 10 GX (In progress)
 
-
-![Colorlight i9](assets/colorlighti9.jpg)
-![Tangnano 20k](assets/tangnano20k.jpg)
-![Nexys 4 DDR](assets/nexys4ddr.jpg)
+<img src="/assets/nexys4ddr.jpg" alt="Nexys 4 DDR" width="200px">
+<img src="/assets/tangnano20k.jpg" alt="Tangnano 20k" width="200px">
+<img src="/assets/colorlighti9.jpg" alt="Colorlight i9" width="200px">
