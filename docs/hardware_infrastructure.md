@@ -36,3 +36,8 @@ The memory controller provides an access interface to the memory for both the co
 - Digilent Arty A7 100T
 - Xilinx VC709
 - Cyclone 10 GX (In progress)
+
+
+![Colorlight i9](assets/colorlighti9.jpg)
+![Tangnano 20k](assets/tangnano20k.jpg)
+![Nexys 4 DDR](assets/nexys4ddr.jpg)
