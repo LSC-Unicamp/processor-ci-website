@@ -40,3 +40,5 @@ The memory controller provides an access interface to the memory for both the co
 <img src="/assets/nexys4ddr.jpg" alt="Nexys 4 DDR" width="200px">
 <img src="/assets/tangnano20k.jpg" alt="Tangnano 20k" width="200px">
 <img src="/assets/colorlighti9.jpg" alt="Colorlight i9" width="200px">
+<img src="/assets/artya7100t.jpg" alt="Tangnano 20k" width="200px">
+<img src="/assets/vc709.jpg" alt="Xilinx VC709 i9" width="200px">
