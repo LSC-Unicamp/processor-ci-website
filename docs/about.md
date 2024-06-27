@@ -2,7 +2,7 @@
 
 ## Origin of the project
 
-## objectives
+## Objectives
 
 ## Developers
 
