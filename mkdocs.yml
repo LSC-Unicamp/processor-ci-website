@@ -1,7 +1,7 @@
 site_name: Processor CI
 site_author: Julio Avelar, Rodolfo Azevedo, Victor Lago, Angelo Malaguti, Gabriel Gomes
 site_description: Processor CI Website
-site_url: https://lampiao.ic.unicamp.br
+site_url: https://processorci.ic.unicamp.br
 repo_name: riscv-isa-ci-website
 repo_url: https://github.com/LSC-Unicamp/riscv-isa-ci-website
 copyright: CC BY-SA 4.0
