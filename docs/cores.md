@@ -17,6 +17,7 @@
 | Klessydra-T02 | [Github](https://github.com/klessydra/T03x.git) | [![Build Status](https://lampiao.ic.unicamp.br/jenkins/buildStatus/icon?job=Klessydra-T02)](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T02/activity) | [Log](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T02/activity) |
 | Klessydra-T03 | [Github](https://github.com/klessydra/T03x.git) | [![Build Status](https://lampiao.ic.unicamp.br/jenkins/buildStatus/icon?job=Klessydra-T03)](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T03/activity) | [Log](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T03/activity) |
 | Klessydra-T13 | [Github](https://github.com/klessydra/T13x.git) | [![Build Status](https://lampiao.ic.unicamp.br/jenkins/buildStatus/icon?job=Klessydra-T13)](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T13/activity) | [Log](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/Klessydra-T13/activity) |
+| riskow | [Github](https://github.com/racerxdl/riskow) | [![Build Status](https://lampiao.ic.unicamp.br/jenkins/buildStatus/icon?job=riskow)](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/riskow/activity) | [Log](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/riskow/activity) |
 
 
 ## Frequency vs LUT4 in Colorlight i9 FPGA Board
