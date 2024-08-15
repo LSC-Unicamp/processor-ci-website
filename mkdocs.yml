@@ -2,8 +2,8 @@ site_name: Processor CI
 site_author: Julio Avelar, Rodolfo Azevedo, Victor Lago, Angelo Malaguti, Gabriel Gomes
 site_description: The Processor CI is an open-source framework that provides a set of tools to facilitate the verification of processors in a continuous integration environment with the assistance of FPGAs.
 site_url: https://processorci.ic.unicamp.br
-repo_name: riscv-isa-ci-website
-repo_url: https://github.com/LSC-Unicamp/riscv-isa-ci-website
+repo_name: processor-ci-website
+repo_url: https://github.com/LSC-Unicamp/processor-ci-website
 copyright: CC BY-SA 4.0
 theme: 
   name: material

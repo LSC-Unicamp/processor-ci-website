@@ -6,7 +6,7 @@ Processor CI Controller is a hardware module that acts as a wrapper around the p
 
 The key idea is to be able to control distinct kind of processors without needing to intercept internal signals as previous works do. This way, the controller can be used with any processor that follows the RISC-V ISA, without needing to modify the processor's RTL.
 
-[Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci-controller)
+[Github repository](https://github.com/LSC-Unicamp/processor-ci-controller)
 
 ## Project Modules
 

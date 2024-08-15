@@ -18,10 +18,10 @@ To control and validate the processor infrastructure, we use the the hardware in
 
 The future goal is to split all tests into requirements and provide badges for each of the RISC-V extensions as a way to partially validate the processor.
 
-[Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci-tests)
+[Github repository](https://github.com/LSC-Unicamp/processor-ci-tests)
 
 ### Processor CI Interface
 
 For each hardware feature we add to our FPGA, we add specifically designed software commands, configurations and checks to work on the processor CI. This way, we can test the processor in a more complex way, by using the hardware features in a more complex way, but share these infrastrucutre among multiple processors to reduce the effort of adding new processors to the CI.
 
-[Github repository](https://github.com/LSC-Unicamp/riscv-isa-ci)
+[Github repository](https://github.com/LSC-Unicamp/processor-ci)

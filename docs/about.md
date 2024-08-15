@@ -17,8 +17,8 @@ This project aims to provide a continuous integration (CI) environment for open-
 
 ## Licenses
 
-Hardware License: [CERN-OHL-P-2.0](https://github.com/LSC-Unicamp/riscv-isa-ci-controller/blob/main/LICENSE)
+Hardware License: [CERN-OHL-P-2.0](https://github.com/LSC-Unicamp/processor-ci-controller/blob/main/LICENSE)
 
-Software License: [MIT](https://github.com/LSC-Unicamp/riscv-isa-ci/blob/main/LICENSE)
+Software License: [MIT](https://github.com/LSC-Unicamp/processor-ci/blob/main/LICENSE)
 
-Documentation License: [CC BY-SA 4.0](https://github.com/LSC-Unicamp/riscv-isa-ci-website/blob/main/LICENSE)
+Documentation License: [CC BY-SA 4.0](https://github.com/LSC-Unicamp/processor-ci-website/blob/main/LICENSE)
