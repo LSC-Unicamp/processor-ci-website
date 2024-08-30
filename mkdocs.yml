@@ -10,7 +10,7 @@ theme:
   highlightjs: true
   logo: assets/logo.svg
   favicon: assets/logo.svg
-  language: en
+  #language: en
   features:
     - content.code.copy
     - navigation.tabs
@@ -20,6 +20,21 @@ theme:
     - toc.integrate
     - navigation.top
     - navigation.footer
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -58,11 +73,18 @@ extra:
         icon: material/brightness-4
         name: Switch to light mode
 plugins:
-  - search
-  # - pdf-export:
-  #     enabled_if_env: ENABLE_PDF_EXPORT
-  # - table-reader
-  # - autolinks
+  - search:
+      lang:
+        - en
+        - pt
+  - i18n:
+      languages:
+        - locale: en
+          default: true
+          name: English
+        - locale: pt
+          name: Português
+
 nav:
   - Home : index.md
   - Cores: cores.md
