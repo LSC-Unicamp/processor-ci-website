@@ -4,11 +4,11 @@ DarkRISCV,https://github.com/darklife/darkriscv,,I
 DV-CPU-RV,https://github.com/devindang/dv-cpu-rv,,I
 e203,https://github.com/riscv-mcu/e203_hbirdv2,,I
 Klessydra-F03,https://github.com/klessydra/F03x,,IA
-Klessydra-T02,https://github.com/klessydra/T03x,,IA
+Klessydra-T02,https://github.com/klessydra/T02x,,IA
 Klessydra-T03,https://github.com/klessydra/T03x,,IA
 Klessydra-T13,https://github.com/klessydra/T13x,,IA
 Mriscv,https://github.com/onchipuis/mriscv,,IM
-neorv32-verilog,https://github.com/stnolting/neorv32-verilog,,I/EMACBUXZicntr
+neorv32,https://github.com/stnolting/neorv32,,I/EMACBUXZicntr
 Pequeno Risco 5,https://github.com/JN513/Pequeno-Risco-5,,I
 RISC-V Steel,https://github.com/riscv-steel/riscv-steel,https://riscv-steel.github.io/riscv-steel/,IZcsr
 Risco 5,https://github.com/JN513/Risco-5,https://jn513.github.io/Risco-5/,I/E[M]
@@ -16,3 +16,27 @@ riskow,https://github.com/racerxdl/riskow,,I
 RPU,https://github.com/Domipheus/RPU,,I
 SERV,https://github.com/olofk/serv,,I
 TinyRiscv,https://github.com/liangkangnan/tinyriscv,,I
+biriscv,https://github.com/ultraembedded/biriscv,,
+PicoRV32,https://github.com/YosysHQ/picorv32,,
+Tethorax,https://github.com/NikosDelijohn/Tethorax,,
+Nerv,https://github.com/YosysHQ/nerv,,
+cv32e40p,https://github.com/openhwgroup/cv32e40p,,
+Ibex,https://github.com/lowRISC/ibex,,
+RV12,https://github.com/roalogic/RV12,,
+scr1,https://github.com/syntacore/scr1,,
+SweRV,https://github.com/chipsalliance/Cores-SweRV,,
+SweRV-EL2,https://github.com/chipsalliance/Cores-SweRV-EL2,,
+SweRV-EH2,https://github.com/chipsalliance/Cores-SweRV-EH2,,
+RPU,https://github.com/Domipheus/RPU,,
+Taiga,https://gitlab.com/sfu-rcl/Taiga,,
+Maestro,https://github.com/Artoriuz/maestro,,
+RSD,https://github.com/rsd-devel/rsd,,
+Kronos,https://github.com/SonalPinto/kronos,,
+RV3N,https://github.com/risclite/rv3n,,
+riskow,https://github.com/racerxdl/riskow,,
+Riscado-V,https://github.com/zxmarcos/riscado-v,,
+RS5,https://github.com/gaph-pucrs/RS5,,
+VeeR-EH2,https://github.com/chipsalliance/Cores-VeeR-EH2,,
+VeeR-EL2,https://github.com/chipsalliance/Cores-VeeR-EL2,,
+VeeR-EH1,https://github.com/chipsalliance/Cores-VeeR-EH1,,
+VexRiscv,https://github.com/SpinalHDL/VexRiscv,,I
