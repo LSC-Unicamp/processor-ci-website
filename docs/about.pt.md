@@ -11,9 +11,14 @@ Este projeto tem como objetivo fornecer um ambiente de integração contínua (C
 - **Alunos de graduação**:
     - [Angelo Malaguti](https://github.com/llTurtle22ll)
     - [Enrico Fernandes](https://github.com/EnricoPf)
+    - [Enzo Bertoloti](https://github.com/Packss)
     - [Gabriel Oliveira](https://github.com/gabcro)
     - [Julio Avelar](https://github.com/JN513)
     - [Victor Lago](https://github.com/Viktor-Lake)
+
+## Artigos
+
+- [ProcessorCI: Integração Contínua para processadores RISC-V em FPGAs](https://sol.sbc.org.br/index.php/sscad_estendido/article/view/30962)
 
 ## Licenças
 
