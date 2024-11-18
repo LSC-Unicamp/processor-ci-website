@@ -28,8 +28,8 @@ def generate_markdown_table(csv_file, output_file):
 
             # Status e Full Log para o Jenkins, com o nome do repositório
             if repo_name:
-                status = f"[![Build Status](https://lampiao.ic.unicamp.br/jenkins/buildStatus/icon?job={repo_name})](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/{repo_name}/activity)"
-                full_log = f"[Log](https://lampiao.ic.unicamp.br/jenkins/blue/organizations/jenkins/{repo_name}/activity)"
+                status = f"[![Build Status](https://processorci.ic.unicamp.br/jenkins/buildStatus/icon?job={repo_name})](https://processorci.ic.unicamp.br/jenkins/blue/organizations/jenkins/{repo_name}/activity)"
+                full_log = f"[Log](https://processorci.ic.unicamp.br/jenkins/blue/organizations/jenkins/{repo_name}/activity)"
             else:
                 status = "N/A"
                 full_log = "N/A"
