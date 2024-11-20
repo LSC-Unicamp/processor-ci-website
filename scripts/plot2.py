@@ -13,7 +13,7 @@ dados = {
     "biriscv": {"LUT4": 6500, "Frequency": 70},
     "riskow": {"LUT4": 4100, "Frequency": 45},
     "riscado-v": {"LUT4": 3000, "Frequency": 55},
-    "VexRiscv": {"LUT4": 4000, "Frequency": 100}
+    "VexRiscv": {"LUT4": 4000, "Frequency": 100},
 }
 
 # Preparar dados para a tecnologia Lattice ECP45F (original)
@@ -29,26 +29,50 @@ frequencia_values_xilinx = [1.3 * dados[key]["Frequency"] for key in dados]
 plt.figure(figsize=(10, 6))
 
 # Plot para Lattice ECP45F
-plt.scatter(frequencia_values_lattice, lut4_values_lattice, color='blue', label='Lattice ECP45F', s=150)
+plt.scatter(
+    frequencia_values_lattice,
+    lut4_values_lattice,
+    color="blue",
+    label="Lattice ECP45F",
+    s=150,
+)
 # Adicionar rótulos aos pontos para Lattice com fonte maior e maior distância dos pontos
 for i, label in enumerate(labels):
-    plt.text(frequencia_values_lattice[i] + 1, lut4_values_lattice[i] + 130, label, fontsize=16, ha='center')
+    plt.text(
+        frequencia_values_lattice[i] + 1,
+        lut4_values_lattice[i] + 130,
+        label,
+        fontsize=16,
+        ha="center",
+    )
 
 # Plot para Xilinx XC7A100T
-plt.scatter(frequencia_values_xilinx, lut4_values_xilinx, color='red', label='Xilinx XC7A100T', s=150)
+plt.scatter(
+    frequencia_values_xilinx,
+    lut4_values_xilinx,
+    color="red",
+    label="Xilinx XC7A100T",
+    s=150,
+)
 # Adicionar rótulos aos pontos para Xilinx com fonte maior e maior distância dos pontos
 for i, label in enumerate(labels):
-    plt.text(frequencia_values_xilinx[i] + 1, lut4_values_xilinx[i] + 130, label, fontsize=16, ha='center')
+    plt.text(
+        frequencia_values_xilinx[i] + 1,
+        lut4_values_xilinx[i] + 130,
+        label,
+        fontsize=16,
+        ha="center",
+    )
 
 # Adicionar títulos e rótulos aos eixos com fonte aumentada
-plt.title('Frequency vs. LUT4 for Lattice ECP45F and Xilinx XC7A100T', fontsize=26)
-plt.xlabel('Frequency (MHz)', fontsize=24)
-plt.ylabel('LUT4', fontsize=24)
+plt.title("Frequency vs. LUT4 for Lattice ECP45F and Xilinx XC7A100T", fontsize=26)
+plt.xlabel("Frequency (MHz)", fontsize=24)
+plt.ylabel("LUT4", fontsize=24)
 
 # Adicionar uma grade e a legenda
 plt.grid(True)
 plt.legend(fontsize=16)
 
 # Mostrar gráfico
-plt.savefig('plot.png', format='png')
+plt.savefig("plot.png", format="png")
 plt.show()

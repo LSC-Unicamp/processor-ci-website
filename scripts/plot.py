@@ -13,7 +13,7 @@ dados = {
     "biriscv": {"LUT4": 6500, "Frequency": 70},
     "riskow": {"LUT4": 4000, "Frequency": 45},
     "riscado-v": {"LUT4": 3500, "Frequency": 55},
-    "VexRiscv": {"LUT4": 4000, "Frequency": 100}
+    "VexRiscv": {"LUT4": 4000, "Frequency": 100},
 }
 
 # Preparar dados para o gráfico
@@ -23,18 +23,18 @@ labels = list(dados.keys())
 
 # Criar gráfico de pontos
 plt.figure(figsize=(10, 6))
-plt.scatter(frequencia_values, lut4_values, color='red')
+plt.scatter(frequencia_values, lut4_values, color="red")
 
 # Adicionar rótulos aos pontos
 for i, label in enumerate(labels):
-    plt.text(frequencia_values[i], lut4_values[i], label, fontsize=9, ha='left')
+    plt.text(frequencia_values[i], lut4_values[i], label, fontsize=9, ha="left")
 
 # Adicionar títulos e rótulos aos eixos
-plt.title('Frequency vs. LUT4')
-plt.xlabel('Frequency (MHz)')
-plt.ylabel('LUT4')
+plt.title("Frequency vs. LUT4")
+plt.xlabel("Frequency (MHz)")
+plt.ylabel("LUT4")
 
 # Mostrar gráfico
 plt.grid(True)
-plt.savefig('plot.png', format='png')
+plt.savefig("plot.png", format="png")
 plt.show()
