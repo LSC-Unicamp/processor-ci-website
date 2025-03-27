@@ -1,7 +1,7 @@
-import plotly.express as px
 import argparse
 import json
 import os
+import plotly.express as px
 
 
 class SynthData:
@@ -11,6 +11,7 @@ class SynthData:
         self.board = None
         self.luts = None
         self.max_freq = None
+        self.used_luts = None
 
     def load_data(self, path):
         try:
