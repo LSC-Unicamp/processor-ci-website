@@ -3,8 +3,8 @@ import csv
 
 def generate_markdown_table(csv_file, output_file):
     # Inicializa a tabela Markdown
-    markdown_table = "| Name | Links | Extensions | Status | Full Log |\n"
-    markdown_table += "| ---- | ------ | ---------- | ------ | -------- |\n"
+    markdown_table = "| Name | Links | Extensions | XLEN | Language | Status | Full Log |\n"
+    markdown_table += "| ---- | ------ | ---------- | ---- | -------- | ------ | -------- |\n"
 
     # Lê o arquivo CSV
     with open(csv_file, mode="r") as file:
@@ -13,16 +13,15 @@ def generate_markdown_table(csv_file, output_file):
         # Itera sobre cada linha do CSV
         for row in reader:
             name = row.get("Name", "")
-            github_link = row.get("Github", "")
-            website_link = row.get("Website", "")
+            github_link = row.get("Repository", "")
             extensions = row.get("Extensions", "")
+            xlen = row.get("XLEN", "")
+            language = row.get("Language", "")
 
             # Links formatados para GitHub e Website
             links = []
             if github_link:
                 links.append(f"[Github]({github_link})")
-            if website_link:
-                links.append(f"[Website]({website_link})")
 
             # Extrai o nome do repositório a partir do link do GitHub
             repo_name = github_link.rstrip("/").split("/")[-1] if github_link else ""
@@ -36,7 +35,7 @@ def generate_markdown_table(csv_file, output_file):
                 full_log = "N/A"
 
             # Adiciona a linha à tabela
-            markdown_table += f"| {name} | {', '.join(links)} | {extensions} | {status} | {full_log} |\n"
+            markdown_table += f"| {name} | {', '.join(links)} | {extensions} | {xlen} | {language} | {status} | {full_log} |\n"
 
     # Salva o markdown gerado em um arquivo
     with open(output_file, mode="w") as output:
@@ -44,7 +43,7 @@ def generate_markdown_table(csv_file, output_file):
 
 
 # Uso do script
-csv_file = "processors.csv"  # Nome do arquivo CSV de entrada
+csv_file = "processadores.csv"  # Nome do arquivo CSV de entrada
 output_file = "processors_table.md"  # Nome do arquivo de saída em Markdown
 generate_markdown_table(csv_file, output_file)
 
