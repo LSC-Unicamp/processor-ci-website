@@ -37,11 +37,12 @@ if __name__ == '__main__':
         default='.',
     )
     data = []
-    for file in os.listdir(arg_parser.parse_args().path):
+    json_path = arg_parser.parse_args().path
+    for file in os.listdir(json_path):
         if file.endswith('.json'):
             try:
                 synth = SynthData()
-                synth.load_data(file)
+                synth.load_data(os.path.join(json_path, file))
                 data.append(synth)
             except Exception as e:
                 print(f'Error processing {file}: {e}')
