@@ -49,18 +49,22 @@ if __name__ == '__main__':
     if not data:
         print('No files were processed')
         exit(1)
-    # fig = px.scatter(
-    #     x=[x.max_freq for x in data],
-    #     y=[x.used_luts for x in data],
-    #     text=[x.processor for x in data],
-    #     labels={"x": "Frequency (MHz)", "y": "Used LUTs"},
-    #     title="Frequency vs LUTs",
-    #     color=[x.board for x in data],
-    # )
-    # fig.update_traces(textposition="top center")
-    # fig.update_layout(legend_title_text="Board")
-    # fig.write_html("performance_comparison.html")
-    # fig.write_image("performance_comparison.png")
+
+    # if there are multiple processors with the same frequency and lut on the
+    # same board, remove all as they are not connected to the shell
+    data = [
+        x
+        for x in data
+        if not any(
+            y
+            for y in data
+            if x.board == y.board
+            and x.max_freq == y.max_freq
+            and x.used_luts == y.used_luts
+            and x.processor != y.processor
+        )
+    ]
+
     # make a png for every board
     for board in set([x.board for x in data]):
         fig = px.scatter(
@@ -68,7 +72,7 @@ if __name__ == '__main__':
             y=[x.used_luts for x in data if x.board == board],
             text=[x.processor for x in data if x.board == board],
             labels={'x': 'Frequency (MHz)', 'y': 'Used LUTs'},
-            title=f'{board} Frequency vs LUTs',
+            title=f'Frequency vs LUTs',
             color=[x.processor for x in data if x.board == board],
         )
         fig.update_traces(textposition='top center')
