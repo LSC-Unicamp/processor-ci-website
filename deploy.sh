@@ -14,7 +14,7 @@ mkdocs build
 deactivate
 
 #copy the files to the web server directory
-sudo cp -r site/* /var/www/html
+sudo cp -r site/* /eda/processor-ci-infrastructure/nginx/data
 
 # End of the script
 echo "Deployment completed successfully"
