@@ -109,6 +109,6 @@
 
 
 
-## Frequência vs LUT4 na Placa FPGA Colorlight i9
+## Frequência vs LUT4 na Placa FPGA Digilent Arty A7
 
-![Gráfico de Dispersão: Frequência vs. LUT4](assets/freqxlut.png)
+![Gráfico de Dispersão: Frequência vs. LUT4](/eda/synth_results/performance_comparison_digilent_arty_a7.png)

@@ -108,6 +108,6 @@
 
 
 
-## Frequency vs LUT4 in Colorlight i9 FPGA Board
+## Frequency vs LUT4 in Digilent Arty A7 FPGA Board
 
-![Scatter Plot: Frequency vs. LUT4](assets/freqxlut.png)
+![Scatter Plot: Frequency vs. LUT4](/eda/synth_results/performance_comparison_digilent_arty_a7.png)
