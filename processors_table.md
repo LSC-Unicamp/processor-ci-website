@@ -1,7 +1,3 @@
-# Processos de Build Atualmente Suportados:
-
-**Nota**: A infraestrutura ainda está em fase de implementação, alguns processadores podem estar em estado de erro devido a problemas na configuração da infraestrutura.
-
 | Name | Links | Extensions | XLEN | Language | Status | Full Log |
 | ---- | ------ | ---------- | ---- | -------- | ------ | -------- |
 | RVX | [Github](https://github.com/rafaelcalcada/rvx) | I | 32 | Verilog | [![Build Status](https://processorci.lsc.ic.unicamp.br/jenkins/buildStatus/icon?job=rvx)](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/rvx/activity) | [Log](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/rvx/activity) |
@@ -105,9 +101,3 @@
 | Potato | [Github](https://github.com/skordal/potato) | I | 32 | VHDL | [![Build Status](https://processorci.lsc.ic.unicamp.br/jenkins/buildStatus/icon?job=potato)](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/potato/activity) | [Log](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/potato/activity) |
 | muntjac | [Github](https://github.com/lowRISC/muntjac) | IMAC[F][D]_ZiCSR_Zifencei | 64 | SystemVerilog | [![Build Status](https://processorci.lsc.ic.unicamp.br/jenkins/buildStatus/icon?job=muntjac)](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/muntjac/activity) | [Log](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/muntjac/activity) |
 | zero-riscy | [Github](https://github.com/tom01h/zero-riscy) | IMC | 32 | SystemVerilog | [![Build Status](https://processorci.lsc.ic.unicamp.br/jenkins/buildStatus/icon?job=zero-riscy)](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/zero-riscy/activity) | [Log](https://processorci.lsc.ic.unicamp.br/jenkins/blue/organizations/jenkins/zero-riscy/activity) |
-
-
-
-## Frequência vs LUT4 na Placa FPGA Digilent Arty A7
-
-![Gráfico de Dispersão: Frequência vs. LUT4](assets/performance_comparison_digilent_arty_a7.png)
