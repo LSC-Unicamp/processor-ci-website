@@ -100,3 +100,5 @@ openc910,https://github.com/XUANTIE-RV/openc910/,Sim,Não,64,,,Verilog,Apache-2.
 Potato,https://github.com/skordal/potato,Não,,32,Wishbone,,VHDL,BSD-3,I,Não,
 muntjac,https://github.com/lowRISC/muntjac,Não,,64,,Sim,SystemVerilog, Apache-2.0 license,IMAC[F][D]_ZiCSR_Zifencei,,
 zero-riscy,https://github.com/tom01h/zero-riscy,Não,,32,Wishbone Based,,SystemVerilog,SOLDERPAD HARDWARE LICENSE version 0.51,IMC,Não,
+Fedar E1,https://github.com/eminfedar/fedar-e1-rv32i,Não,,,,,,,,,
+Nox,https://github.com/aignacio/nox,Sim,,32,AHB/AXI4-Lite,,,,,,
